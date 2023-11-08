@@ -38,8 +38,9 @@
 }
 
 .header__logo-image {
-  width: 148px;
-  margin-bottom: 4px;
+  width: auto;
+  height: 105px;
+  /* margin-bottom: 4px; */
 }
 
 .header__address {
@@ -292,8 +293,7 @@
   text-align: center;
 }
 
-.footer__menu-link {
-}
+/* .footer__menu-link {} */
 
 .footer__menu-link_active {
   text-decoration: none;
@@ -307,11 +307,9 @@
   list-style: none;
 }
 
-.footer__social-list-item {
-}
+/* .footer__social-list-item {} */
 
-.footer__social-link {
-}
+/* .footer__social-link {} */
 
 .footer__social-icon {
   width: 48px;
