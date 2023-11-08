@@ -86,7 +86,7 @@
 }
 
 .letter-spacing-extended {
-  letter-spacing: 30px;
+  letter-spacing: 0;
 }
 
 .no-letter-spacing {
@@ -101,6 +101,10 @@
   gap: 20px;
   font-size: 100px;
   line-height: 100px;
+}
+
+.cover__title > span {
+  letter-spacing: 30px;
 }
 
 .cover__title span:first-child {
@@ -133,7 +137,7 @@
 }
 
 /* Сначала хотел сделать через position: absolute, 
-   но понял что при уменьшении страницы текст не будет переноситься и перкрывать кнопку
+   но понял что при уменьшении страницы текст не будет переноситься и начнёт перкрывать кнопку
 */
 .cover__description-text {
   grid-column: 2/6;
