@@ -85,14 +85,6 @@
   text-transform: uppercase;
 }
 
-.letter-spacing-extended {
-  letter-spacing: 0;
-}
-
-.no-letter-spacing {
-  margin-right: -30px;
-}
-
 .cover__title {
   position: relative;
   z-index: 2;
@@ -107,12 +99,21 @@
   letter-spacing: 30px;
 }
 
-.cover__title span:first-child {
+.cover__title > span:first-child {
   line-height: 115px;
 }
 
-.cover__title span:nth-child(2) {
+.cover__title > span:nth-child(2) {
   padding-right: 50px;
+}
+
+.letter-spacing-extended {
+  margin-left: -20px;
+  letter-spacing: 0;
+}
+
+.no-letter-spacing {
+  margin-right: -30px;
 }
 
 .aligned-text {
