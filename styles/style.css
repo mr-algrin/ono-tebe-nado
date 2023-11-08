@@ -20,6 +20,7 @@
 .header__links-list-item {
   font-size: 18px;
   line-height: 21.13px;
+  letter-spacing: 0.004rem;
 }
 
 .header__links-list-item_no-bullit {
@@ -100,6 +101,14 @@
   gap: 20px;
   font-size: 100px;
   line-height: 100px;
+}
+
+.cover__title span:first-child {
+  line-height: 115px;
+}
+
+.cover__title span:nth-child(2) {
+  padding-right: 50px;
 }
 
 .aligned-text {
@@ -214,6 +223,7 @@
   line-height: 26.4px;
   text-decoration: underline;
   text-transform: uppercase;
+  /* letter-spacing: 0.005rem; */
 }
 
 .card__text {
