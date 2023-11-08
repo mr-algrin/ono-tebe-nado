@@ -265,7 +265,7 @@
   grid-column: 2/4;
   margin: 100px 0;
   font-size: 40px;
-  line-height: 46.96px;
+  line-height: 47px;
   text-transform: uppercase;
 }
 
@@ -275,7 +275,7 @@
   grid-column: 2/4;
   gap: 25px;
   font-size: 20px;
-  line-height: 23.48px;
+  line-height: 23.9px;
 }
 
 .footer {
