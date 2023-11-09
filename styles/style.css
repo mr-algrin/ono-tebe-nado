@@ -98,7 +98,7 @@
 }
 
 .cover__title > span:nth-child(2) {
-  padding-right: 20px;
+  padding-right: 60px;
 }
 
 .cover__title > span:nth-child(3)::first-letter {
@@ -139,7 +139,7 @@
   font-size: 22px;
   line-height: 28px;
   text-align: center;
-  word-spacing: 8px;
+  word-spacing: 12px;
 }
 
 .bet-button {
