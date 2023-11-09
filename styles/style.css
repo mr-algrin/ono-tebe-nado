@@ -69,20 +69,13 @@
 
 .cover {
   position: relative;
+  padding: 165px 50px 50px;
   color: #fff;
+  text-transform: uppercase;
   background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-}
-
-.cover__content {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 100%;
-  padding: 165px 50px 50px;
-  text-transform: uppercase;
 }
 
 .cover__title {
@@ -131,7 +124,6 @@
 }
 
 .cover__description {
-  z-index: 2;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -139,13 +131,15 @@
 }
 
 .cover__description-text {
+  z-index: 2;
   font-size: 22px;
   line-height: 28px;
   text-align: center;
-  word-spacing: 26.5px;
+  word-spacing: 24px;
 }
 
 .bet-button {
+  z-index: 2;
   border: 1px solid #fff;
   padding: 12px 32px;
   color: inherit;
@@ -170,16 +164,17 @@
 }
 
 .lots__card-list {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
   gap: 25px;
-  height: 450px;
   margin: 27px 0 30px;
   list-style: none;
 }
 
 .lots__card-list-item {
   position: relative;
+  flex: 1;
+  flex-grow: 1;
+  height: 450px;
   color: #fff;
 }
 
@@ -191,7 +186,7 @@
   height: 100%;
   padding: 50px 40px;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
 }
 
 .card-link {
@@ -199,17 +194,14 @@
 }
 
 .card_type_film {
-  grid-column-start: 1;
   background-image: url(../images/card-lot-01.jpg);
 }
 
 .card_type_book {
-  grid-column-start: 2;
   background-image: url(../images/card-lot-02.jpg);
 }
 
 .card_type_picture {
-  grid-column-start: 3;
   background-image: url(../images/card-lot-03.jpg);
 }
 
